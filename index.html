@@ -1,2 +1,293 @@
-Hello everyone, I am yt.
-Well, else call me trickMin and it's my neckname.
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="author" content="trickMin">
+		<meta name="keyword" content="trickMin , homepage , bootstrap4">
+		<meta name="description" content="My Personal Homepage on Bootstrap 4">
+		<title>I'm trickMin</title>
+		<link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="css/stisla.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg main-navbar">
+			<div class="container-fluid">			
+			  <a class="navbar-brand" href="#">
+			  	<img src="img/logo-light.png" alt="Logo">
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon">
+			    	<i class="ion-navicon"></i>
+			    </span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				  <div class="mr-auto"></div>
+			    <ul class="navbar-nav">
+			      <li class="nav-item active">
+			        <a class="nav-link smooth-link" href="#hero">主页</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#features">简介</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#blog">博客</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link smooth-link" href="#project">项目</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline">
+				    <a href="#contact" class="btn smooth-link align-middle btn-primary">需要帮助?</a>
+			    </form>
+			  </div>
+		  </div>
+		</nav>
+		<section class="hero bg-overlay" id="hero" data-bg="img/hero.jpeg">
+			<div class="text" >
+				<p class="lead">Treat or Trick!</p>
+				<h1>I'm <span class="bold">trickMin</span>, it's my <span class="bold">Personal Homepage</span>.</h1>
+				<div class="cta">
+					<a href="#features" class="btn btn-primary smooth-link">来看看介绍吧</a>
+					<div class="link">						
+						<a href="#">恢复到页首</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item">
+							<div class="icon">
+								<i class="ion-code"></i>
+							</div>
+							<div class="desc">
+								<h2>欢迎来到我的主页</h2>
+								<p>
+									我将在我的主页展出我的相关博客和一些参考项目，以及分享一些有趣的事情！
+								</p>
+								<a href="#" class="more">回到页首</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item">
+							<div class="icon">
+								<i class="ion-paintbrush"></i>
+							</div>
+							<div class="desc">
+								<h2>写博客这事儿</h2>
+								<p>
+									本人崇尚新技术，喜欢钻研技术，因此也会写写博客，曾经的博客因为电脑坏了所以就没咯
+								</p>
+								<a href="#blog" class="more">博客专栏</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-sm-12">
+						<div class="list-item">
+							<div class="icon">
+								<i class="ion-social-github"></i>
+							</div>
+							<div class="desc">
+								<h2>分享一些开源模板</h2>
+								<p>
+									上传代码一般只为了协作开发，这是公司里常干的事儿，我的开源内容仅限于一些参考模板哦
+								</p>
+								<a href="#project" class="more">开源模板</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding bg-grey" id="blog">
+			<div class="container">
+				<h2 class="section-title" id="blog">博客那些事儿</h2>
+				<p class="section-lead text-muted">We wrote some articles about whatever was on our heads and most people liked it.</p>
+				<div class="section-body">
+					<div class="row col-spacing">
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img01.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> on November 28, 2019</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">MySQL数据库优化常规流程</a></h4>
+							    <p class="card-text">作为开发人员，数据库永远是随身的物件，时下最流行的MySQL数据库的优化成了热门的话题，我们就来聊聊常规的优化流程</p>
+							    <div class="text-right">						    	
+								    <a href="https://blog.csdn.net/qq_40744773/article/details/103276378" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img04.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> on November 29, 2019</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">Ubuntu16.04 Docker安装流程</a></h4>
+							    <p class="card-text">Docker是一款时下非常流行的虚拟化容器技术，相比于虚拟机技术存在着很多优势，此次我们来了解其在Ubuntu上的安装及配置</p>
+							    <div class="text-right">						    	
+								    <a href="https://blog.csdn.net/qq_40744773/article/details/103288393" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img02.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> on November 29, 2019</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">深度理解RESTful设计</a></h4>
+							    <p class="card-text">以REST本身的释义及设计方法出发，简单明了地探究RESTful风格API设计方法</p>
+							    <div class="text-right">						    	
+								    <a href="https://blog.csdn.net/qq_40744773/article/details/103293328" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img05.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> on August 10, 2017</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">git 常用命令行操作</a></h4>
+							    <p class="card-text">代码托管、版本控制、分支回滚，这工具真的好用得不行，本文将着重于命令（Bash）讲解如何操作git工具完成代码管理</p>
+							    <div class="text-right">						    	
+								    <a href="https://blog.csdn.net/qq_40744773/article/details/103698376" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img03.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> in the future</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">敬请期待</a></h4>
+							    <p class="card-text">暂无简介</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+					  </div>
+					  <div class="col-12 col-md-6 col-lg-4">
+							<article class="card">
+							  <img class="card-img-top" src="img/news/img06.jpg" alt="Article Image">
+							  <div class="card-body">
+								  <div class="card-subtitle mb-2 text-muted">by <a href="#">trickMin</a> in the future</div>
+							    <h4 class="card-title"><a href="#" data-toggle="read" data-id="1">敬请期待</a></h4>
+							    <p class="card-text">暂无简介</p>
+							    <div class="text-right">						    	
+								    <a href="#" class="card-more" data-toggle="read" data-id="1">Read More <i class="ion-ios-arrow-right"></i></a>
+							    </div>
+						    </div>
+						  </article>
+						</div>
+					</div>
+				</div>
+
+			
+			</div>
+		</section>
+		
+
+		<section class="bg-overlay padding" id="project" data-bg="img/projects.jpeg">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6">
+						<figure class="projects-picture">
+							<img src="img/SSM.png" alt="SSM Template">
+						</figure>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="projects-details">
+							<div class="projects-badge">
+								Featured
+							</div>
+							<h2 class="projects-title">SSM Template</h2>
+							<p class="projects-description">
+							 基于SSM（Spring+SpringMVC+MyBatis）的框架整合，如果您需要开始一个全新的SSM项目，那来这儿直接取吧！本案例以搭建好的SSM应用为基础，完整的依赖和最小配置文件，还包括一套完整的CRUD测试API，仅需要5分钟的修改就可以开始自己的项目！
+							</p>
+							<div class="projects-cta">
+								<a href="https://github.com/trickMin/SSMTemplate" class="btn btn-primary" target="_blank">
+									go to github
+								</a>
+								<a href="#" class="btn btn-link" target="_blank">
+									更多内容
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="padding bg-grey" id="contact">
+			<div class="container">
+				<h2 class="section-title text-center">联系我</h2>
+				<p class="section-lead text-center text-muted">只要我看到邮件，我会尽快回复您（快捷发送可能未连接服务）</p>
+				<div class="section-body">				
+					<div class="row col-spacing">
+						<div class="col-12 col-md-5">
+							<p class="contact-text">你可以发一些技术相关的话题，也可以对一些非技术相关的事务对我问问题，只要我能回答我都会详尽地回复您</p>
+							<ul class="contact-icon">
+								<li><i class="ion ion-ios-email"></i> <div>2416109044@qq.com</div></li>
+							</ul>
+							
+						</div>
+						<div class="col-12 col-md-7">
+							<form class="contact row" id="contact-form">
+								<div class="form-group col-6">
+									<input type="text" class="form-control" placeholder="Name" name="name" required="">
+								</div>
+								<div class="form-group col-6">
+									<input type="email" class="form-control" placeholder="Email" name="email" required="">
+								</div>
+								<div class="form-group col-12">
+									<input type="text" class="form-control" placeholder="Subject" name="subject" required="">
+								</div>
+								<div class="form-group col-12">
+									<textarea class="form-control" placeholder="Message" name="message" required></textarea>
+								</div>
+								<div class="form-group col-12 mt-2">
+									<button class="btn btn-primary">
+										发送消息
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<figure>
+					<img src="img/logo-light.png" alt="Logo">
+				</figure>
+				<p>
+					Copyright &copy; 2019 personal -> trickMin
+				</p>
+				<p>
+					 <a href="#hero" target="_self" title="personal_homepage">my blog and good times</a>
+				</p>
+			</div>
+		</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/jquery.easeScroll.js"></script>
+		<script src="sweetalert/dist/sweetalert.min.js"></script>
+		<script src="js/stisla.js"></script>
+	</body>
+</html>
